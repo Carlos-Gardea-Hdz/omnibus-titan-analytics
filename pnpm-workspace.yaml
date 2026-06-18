@@ -1,0 +1,7 @@
+# Supply-chain hardening (AGENTS tech-stack.md): hold new releases for >=1 day
+# before they are eligible, to dodge freshly-published malicious versions.
+minimumReleaseAge: 1440
+
+# Allowlist of dependencies permitted to run install scripts (default deny).
+onlyBuiltDependencies:
+  - esbuild
